@@ -8,5 +8,8 @@
     :width => "1",
     :depth => "1",
     :src => "#texture"}
-    %a-animation{:attribute => "rotation", :repeat => "indefinite", :to => "180 225 180"}
+    %a-animation{:attribute => "rotation", :end => "click", :repeat => "indefinite", :to => "180 225 180"}
   %a-sky{:color => "#ECECEC"}
+  %a-camera{:position => "0 1 0"}
+    %a-cursor{:color => "#FF0000"}
+
