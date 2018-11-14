@@ -1,3 +1,5 @@
 %a-scene{:embedded => "true", :arjs => "sourceType: webcam;"}
-  %a-box{:position => '0 0.5 0', :material => 'opacity: 0.5'}
-  %a-marker-camera{:preset => "hiro"} 
+  %a-assets
+    %img{:id => "texture", :src => asset_path("eightMana.png")}
+  %a-box{:position => '0 0.5 0', :material => 'opacity: 0.5', :src => "#texture"}
+  %a-marker-camera{:preset => "kanji"} 
